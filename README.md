@@ -23,7 +23,7 @@ pd.set_option('display.max_rows', 700)
 
 ```python
 def get_data(prod_id):
-    df_orig = pd.read_csv(r"C:\Users\Vivek\Documents\meijer\\" + prod_id + ".csv.gz")
+    df_orig = pd.read_csv(r"C:\Users\Vivek\Documents\\" + prod_id + ".csv.gz")
     return df_orig
 
 def rename_cols(df_orig):
